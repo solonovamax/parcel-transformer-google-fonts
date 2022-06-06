@@ -37,9 +37,9 @@ function safeReplace (str, regex, replace) {
     return replaceWith
   })
 
-  if (!replaced) {
-    throw new Error('GFonts Internal error: Replace did not successfully replace anything')
-  }
+//  if (!replaced) {
+//    throw new Error('GFonts Internal error: Replace did not successfully replace anything')
+//  }
 
   return out
 }
